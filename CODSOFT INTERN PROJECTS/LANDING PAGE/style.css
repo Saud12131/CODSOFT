@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+   background-color: #ccf0f0;
+   background-image: url(agency\ bg.webp);
+}
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    margin-top: 2rem;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 15px 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    nav ul li a:hover{
+        color: aqua;
+    }
+.heading-txt{
+    text-align: right;
+   margin-right: 14rem;
+   margin-top: 5.5rem;
+   font-family: Stencil Std, fantasy;
+ 
+}
+.heading-txt h1{
+    color: aquamarine;
+    font-weight: 300;
+    animation: color-change 2s infinite alternate; 
+}
+.heading-txt h2{
+    color:white;
+    font-weight: 200;
+}
+@keyframes color-change {
+    0% {
+      color: rgb(80, 226, 129); 
+    }
+    100% {
+      color: rgb(6, 93, 130); 
+    }
+  }
+
+  .about{
+    width: 50rem;
+    margin-top: 40rem; 
+    padding: 20px;
+    background-color: rgba(255, 255, 0, 0.5);
+   text-align: center;
+   margin-left: 20rem;
+  }
+
+  .about-heading{
+  text-decoration: double;
+  letter-spacing: 1rem;
+  color: rgb(245, 91, 2);
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   opacity: 0;
+  animation: fadeInAnimation 2s ease-in forwards;
+  }
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .service{
+    width: 50rem;
+    margin-top: 10rem;
+    padding: 20px;
+    background-color: rgba(0, 221, 255, 0.5);
+   text-align: center;
+   margin-left: 20rem;
+  }
+  p{
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .contact{
+    width: 100vh;
+   margin-top: 10rem;
+    padding: 20px;
+    background-color: rgba(255, 5, 5, 0.5);
+   text-align: center;
+   margin-left: 20rem;
+    
+    
+}
+.link-icons{
+    margin: 20PX 10PX;
+    font-size: 20px;
+    background-color: black;
+    width: 40px;
+    height: 20px;
+    padding: 5px 5px;
+    border-radius: 50%;
+}
+.contact a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+.link-icons:hover{
+  background-color: rgb(179, 6, 6);
+}
